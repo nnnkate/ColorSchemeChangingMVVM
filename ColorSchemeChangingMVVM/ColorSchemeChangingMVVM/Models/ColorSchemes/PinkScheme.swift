@@ -10,5 +10,4 @@ import UIKit
 struct PinkScheme: ColorSchemeType {
     var backgroundColor: UIColor = .systemPink
     var titleColor: UIColor = .white
-    var additionalColor: UIColor = .white
 }

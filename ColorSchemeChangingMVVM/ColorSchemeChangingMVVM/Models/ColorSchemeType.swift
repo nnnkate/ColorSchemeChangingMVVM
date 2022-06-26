@@ -23,6 +23,6 @@ extension ColorSchemeType {
     }
     
     var additionalColor: UIColor {
-        .gray
+        .white
     }
 }

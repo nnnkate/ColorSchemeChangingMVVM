@@ -6,7 +6,6 @@
 //
 
 final class ViewModel {
-    
     let colorSchemes = ColorScheme.allCases
 
     func getColorSchemesItems() -> [String] {
@@ -21,12 +20,12 @@ final class ViewModel {
         switch index {
         case 1:
             completion(PinkScheme())
+            
         case 2:
             completion(NightScheme())
+            
         default:
             completion(LightScheme())
         }
     }
-    
 }
-

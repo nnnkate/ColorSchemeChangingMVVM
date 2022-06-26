@@ -8,7 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
     let viewModel = ViewModel()
     
     private var colorSchemeSegmentedControl = UISegmentedControl()
@@ -29,7 +28,6 @@ class ViewController: UIViewController {
         addSubviews()
         configureLayout()
     }
-
 }
 
 private extension ViewController {
